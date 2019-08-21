@@ -6,7 +6,7 @@ services:
 
   redis-master:
 
-    image: gcr.io/google\_containers/redis:e2e
+    image: gcr.io/google_containers/redis:e2e
 
     ports:
 
@@ -14,7 +14,7 @@ services:
 
   redis-slave:
 
-    image: gcr.io/google\_samples/gb-redisslave:v1
+    image: gcr.io/google_samples/gb-redisslave:v1
 
     ports:
 
@@ -35,3 +35,6 @@ services:
     environment:
 
       - GET\_HOSTS\_FROM=dns
+    
+    labels:
+      kompose.service.type: LoadBalancer
