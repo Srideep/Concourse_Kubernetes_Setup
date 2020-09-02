@@ -1,4 +1,4 @@
-# Continuous Integration & Delivery w/ Concourse, Docker & Kubernetes
+# Continuous Integration/ Continuous Delivery w/ Concourse, Docker & Kubernetes
 
   This repositary is created for setting a CI/CD workflow using open-source tools like Concourse, Docker and Kubernetes.
   
